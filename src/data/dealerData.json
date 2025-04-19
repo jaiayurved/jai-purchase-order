@@ -1,0 +1,24 @@
+
+[
+  {
+    "Phone Number": "9829280873",
+    "Dealer Name": "ASHISH mishra & co.",
+    "Type": "WLD",
+    "WLD Category": "WLD-HairCare",
+    "Favorites": ["Keyuramrit Hair Tonic -- 100ml -- 198.00", "HP Anti Hairfall Shampoo -- 200ml -- 249.00"]
+  },
+  {
+    "Phone Number": "9876543210",
+    "Dealer Name": "Other Dealer",
+    "Type": "WLD",
+    "WLD Category": "WLD-SkinCare",
+    "Favorites": ["Neem Face Wash -- 60ml -- 120.00"]
+  },
+    {
+    "Phone Number": "9929988408",
+    "Dealer Name": "ASHISH MEDICAL",
+    "Type": "WLD",
+    "WLD Category": "WLD-SkinCare",
+    "Favorites": ["Neem Face Wash -- 60ml -- 120.00"]
+  }
+]

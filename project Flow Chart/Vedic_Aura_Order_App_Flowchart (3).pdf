@@ -1,0 +1,45 @@
+// Vedic Aura Order App Flow
+digraph {
+	A [label="Start Project
+(npm install, npm start)"]
+	B [label="App.js
+Main controller"]
+	C [label="Dealer Identification
+useDealerLogic.js"]
+	D [label="Product Filtering
+filterProductsByDealer.js"]
+	E [label="Category UI
+CategoryTabs.js + ProductGrid.js"]
+	F [label="Cart Logic
+useCartLogic.js"]
+	G [label="Cart Review UI
+CartReview.js"]
+	H [label="Toast Notifications
+useToast.js + OrderToast.js"]
+	I [label="Order Submission
+buildWhatsappMessage.js + sendViaWhatsApp.js"]
+	J [label="Dealer Data
+dealerData.json"]
+	K [label="Product Data
+products.js"]
+	L [label="Navigation/Header
+Header.js + Navigation.js"]
+	M [label="UI/UX Styling
+styles.css + tailwind.config.js"]
+	A -> B
+	B -> C
+	B -> D
+	B -> E
+	B -> F
+	B -> G
+	B -> H
+	B -> I
+	B -> J
+	B -> K
+	B -> L
+	F -> G [label="Add/Remove/Qty"]
+	C -> D [label="Match WLD Category"]
+	F -> I [label="Submit Order"]
+	E -> F [label="Add to Cart"]
+	B -> M [label="Imports styles"]
+}
