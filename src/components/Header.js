@@ -9,8 +9,8 @@ export default function Header({ dealerName }) {
         🪔 <div className="border-l border-gray-400 h-6"></div> <span>Jai ayurvedic sales Order App</span>
       </h1>
 
-      {dealerName && (
-        <p className="text-sm text-gray-600">👋 Welcome, <span className="font-medium text-black">	{"Dealer"}</span></p>
+     {dealerName && (
+      <p className="text-sm text-gray-600">👋 Welcome, <span className="font-medium text-black"> 	{"Dealer"}</span></p>
       )}
 
       <hr className="mt-4 border-t-2 border-dashed border-gray-300" />

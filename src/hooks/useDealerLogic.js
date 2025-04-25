@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import identifyDealer from "../utils/identifyDealer";
 
-export default function useDealer(phone = "9929988408") {
+export default function useDealer(phone = "1234") {
   const [dealer, setDealer] = useState(null);
 
   useEffect(() => {

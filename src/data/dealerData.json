@@ -1,24 +1,24 @@
-
 [
-  {
-    "Phone Number": "9829280873",
-    "Dealer Name": "ASHISH mishra & co.",
-    "Type": "WLD",
-    "WLD Category": "WLD-HairCare",
-    "Favorites": ["Keyuramrit Hair Tonic -- 100ml -- 198.00", "HP Anti Hairfall Shampoo -- 200ml -- 249.00"]
-  },
-  {
-    "Phone Number": "9876543210",
-    "Dealer Name": "Other Dealer",
-    "Type": "WLD",
-    "WLD Category": "WLD-SkinCare",
-    "Favorites": ["Neem Face Wash -- 60ml -- 120.00"]
-  },
-    {
-    "Phone Number": "9929988408",
-    "Dealer Name": "ASHISH MEDICAL",
-    "Type": "WLD",
-    "WLD Category": "WLD-SkinCare",
-    "Favorites": ["Neem Face Wash -- 60ml -- 120.00"]
-  }
+  { "Dealer Name": "Surya Sikar", "WLD Category": "Generic" },
+  { "Dealer Name": "Adiyog Dausa", "WLD Category": "Generic" },
+  { "Dealer Name": "Agarwal Bikaner", "WLD Category": "Generic" },
+  { "Dealer Name": "Bhagwati panchkarma , jaipur", "WLD Category": "Generic" },
+  { "Dealer Name": "Bharatpur arogya, Bharatpur", "WLD Category": "Generic" },
+  { "Dealer Name": "Bhikaram ram, Dholpur", "WLD Category": "Generic" },
+  { "Dealer Name": "Jaipur Distr", "WLD Category": "Generic" },
+  { "Dealer Name": "Jayanti", "WLD Category": "Generic" },
+  { "Dealer Name": "Jhalani", "WLD Category": "Generic" },
+  { "Dealer Name": "Jwala pr, tijara", "WLD Category": "Generic" },
+  { "Dealer Name": "kamdhen , Angul", "WLD Category": "Generic" },
+  { "Dealer Name": "Mansi", "WLD Category": "Generic" },
+  { "Dealer Name": "Parmand, jpr", "WLD Category": "Generic" },
+  { "Dealer Name": "Quicktion lab", "WLD Category": "Generic" },
+  { "Dealer Name": "Rajasthan jodhpur", "WLD Category": "Generic" },
+  { "Dealer Name": "Rajasthan CO oP", "WLD Category": "Generic" },
+  { "Dealer Name": "Shri Nath lotion", "WLD Category": "Generic" },
+  { "Dealer Name": "shyam ent , jailal munshi", "WLD Category": "Generic" },
+  { "Dealer Name": "Supreme Drug", "WLD Category": "Generic" },
+  { "Dealer Name": "Uniqe amar singh", "WLD Category": "Generic" },
+  { "Dealer Name": "Upchar , Alwar", "WLD Category": "Generic" },
+  { "Dealer Name": "Vinson dholpur", "WLD Category": "Generic" }
 ]
