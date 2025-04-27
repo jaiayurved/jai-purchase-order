@@ -2,9 +2,9 @@ const categories = [ "चूर्ण " ,  "तैल", "वटी गुटि�
 
 export default function CategoryTabs({ currentCategory, onSelect }) {
   return (
-    <div className="sticky top-0 z-20 bg-gray-50 py-3 shadow-sm">
-      <div className="flex flex-wrap justify-center gap-3">
-        {categories.map((cat) => (
+   <div className="sticky top-0 z-20 bg-gray-50 py-3 shadow-sm">
+  <div className="flex overflow-x-auto space-x-3 py-2 px-4 bg-white rounded-xl shadow-sm">
+     {categories.map((cat) => (
           <button
             key={cat}
             onClick={() => onSelect(cat)}

@@ -18,7 +18,8 @@ export default function ProductGrid({ items, cart, onAdd }) {
     <div className="px-2 sm:px-4 space-y-6">
       {groupedItems.map(([baseName, variants], idx) => (
         <div key={idx}>
-          <h3 className="text-lg font-semibold text-gray-700 mb-2">{baseName}</h3>
+          <h3 className="text-base font-semibold text-gray-800 mb-1">{baseName}</h3>
+
           <div className="flex overflow-x-auto gap-4 pb-2">
             {variants.map((item, i) => (
               <div

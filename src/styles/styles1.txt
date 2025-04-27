@@ -6,9 +6,9 @@
 
 body {
   @apply font-sans text-gray-800;
-  background-color: #007bff;
-  }
-
+   --primary-color: #007bff; /* Frosty Blue */
+  --accent-color: #38b2ac;  /* Teal Accent */
+	}
 
 .login-screen input {
   @apply border border-gray-300 rounded px-4 py-2 mb-4 w-full max-w-xs transition;
@@ -81,12 +81,5 @@ button {
   transform-origin: bottom center;
 }
 
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
-}
-.no-scrollbar {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
 
 

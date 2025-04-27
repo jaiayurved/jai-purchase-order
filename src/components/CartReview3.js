@@ -32,10 +32,12 @@ export default function CartReview({ cart, qty, onQtyChange, onRemove, onSubmit,
 
   return (
     <div className="max-w-3xl mx-auto space-y-1 px-1 pb-24">
+      <h3 className="text-center text-lg font-semibold text-gray-700 border-b pb-2 animate-glow">
+        📝 कृपा यहां पर अपनी मात्रा दर्ज करें, फिर सबमिट ऑर्डर बटन दबाएं
+      </h3>
 
       {cart.map((item, i) => (
-       <div key={i} className="border-b border-gray-200 py-4">
-
+        <div key={i} className="relative border-b pb-0.5 border-gray-300">
           <h3 className="text-base sm:text-lg font-extrabold text-gray-800 mb-1">{item.name}</h3>
 
           <div className="flex flex-wrap items-center gap-2">

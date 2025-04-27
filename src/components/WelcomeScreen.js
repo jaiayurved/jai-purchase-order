@@ -24,7 +24,7 @@ export default function WelcomeScreen({ onFinish }) {
         alt="App Logo"
         className="w-48 h-48 mb-6 animate-pulse"
       />
-      <h1 className="text-4x4 font-bold text-blue-800 animate-bounce">
+      <h1 className="text-4xl font-bold text-blue-800 animate-bounce">
         Welcome to JAI Ayurvedic 
       </h1>
     </div>
